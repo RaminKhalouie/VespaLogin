@@ -554,7 +554,24 @@ video {
   display: none;
 }
 
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+.main-bg{
+  background-image: url("../img/avatar_makata_vespa_042.png") , linear-gradient(to right,#00B4DB,#0083B0);
+  background-size: contain , auto;
+  background-repeat: no-repeat;
+}
+
+.relative {
+  position: relative;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
